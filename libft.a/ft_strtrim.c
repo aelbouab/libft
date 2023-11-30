@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 14:36:49 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/14 13:37:11 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:27:08 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,10 +87,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[e] = '\0';
 	return (str);
 }
-/*
-#include <stdio.h>
-
-int main()
-{
-	printf("%s", ft_strtrim("abceadnanabc", "abc"));
-}*/

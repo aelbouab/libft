@@ -6,11 +6,10 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 12:30:28 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/14 09:32:52 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/27 13:13:18 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

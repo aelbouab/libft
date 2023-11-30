@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 12:51:07 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/07 16:48:56 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/21 16:02:33 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[j] = '\0';
 	return (str);
 }
-/*
-#include <stdio.h>
-int main()
-{
-    printf("%s", ft_strjoin("adnan", "5454"));
-}*/

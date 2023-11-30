@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:56:08 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/09 19:14:21 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:16:01 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ char	*ft_itoa(int n)
 		return (NULL);
 	j--;
 	r[j] = '\0';
-	while (j >= 0)
+	while (j > 0)
 	{
 		j--;
 		r[j] = (nb % 10) + 48;
@@ -53,10 +53,3 @@ char	*ft_itoa(int n)
 	}
 	return (r);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%s", ft_itoa(1));
-}*/

@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 09:14:53 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/14 13:06:51 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/30 14:21:42 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,20 +128,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (sp);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	**d;
-	int		i;
-
-	i = 0;
-	d = ft_split("", ' ');
-	while (d[i])
-	{
-		printf("%s\n", d[i]);
-		i++;
-	}
-}
-*/

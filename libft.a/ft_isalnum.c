@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 12:25:36 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/04 12:35:40 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/21 12:05:04 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalnum(int i)
 		return (1);
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-        printf("%d",ft_isalnum(47));
-}*/

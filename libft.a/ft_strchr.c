@@ -6,11 +6,10 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/03 10:08:14 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/09 09:51:51 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/27 13:48:00 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
@@ -26,10 +25,3 @@ char	*ft_strchr(const char *s, int c)
 		return (&r[i]);
 	return (NULL);
 }
-/*
-#include<stdio.h>
-
-int main()
-{
-	printf("%s",ft_strchr("adnan",97));
-}*/

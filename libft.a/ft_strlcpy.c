@@ -6,11 +6,10 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 08:56:47 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/05 11:41:44 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/17 18:03:23 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)

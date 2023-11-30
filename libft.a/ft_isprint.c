@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 10:21:26 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/06 10:23:22 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/21 12:06:15 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_isprint(int i)
 		return (1);
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-        printf("%d",ft_isprint(26));
-}*/

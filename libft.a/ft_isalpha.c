@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 12:36:06 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/14 12:49:00 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/29 11:15:31 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalpha(int i)
 	else
 		return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	printf("%d",ft_isalpha(65));
-}*/

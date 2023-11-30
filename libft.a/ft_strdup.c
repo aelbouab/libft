@@ -6,11 +6,10 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 11:41:32 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/09 10:45:23 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/21 16:02:24 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *src)
@@ -35,9 +34,3 @@ char	*ft_strdup(const char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	printf("%s",ft_strdup("ADAD"));
-}*/

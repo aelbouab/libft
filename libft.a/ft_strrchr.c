@@ -6,7 +6,7 @@
 /*   By: aelbouab <aelbouab@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 11:18:13 by aelbouab          #+#    #+#             */
-/*   Updated: 2023/11/14 13:33:35 by aelbouab         ###   ########.fr       */
+/*   Updated: 2023/11/27 13:48:46 by aelbouab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return (&r[i]);
 	return (NULL);
 }
-/*
-#include<stdio.h>
-int main()
-{
-	printf("%s",strrchr("adnan",97));
-}*/
